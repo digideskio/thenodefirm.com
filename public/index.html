@@ -6,13 +6,627 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
+  <meta charset="utf-8" />
 
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <link rel="icon" type="image/png" href="./favicon.png">
+
+  <title>The Node.js Consulting Company - The Node Firm</title>
+  <meta name="keywords" content="training, consulting, nodejs" />
+  <meta name="description" content="We offer professional training &amp; consulting that deliver practical knowledge. Our workshops include hands-on development. Whether you're a seasoned Node.js professional or you've never so much as seen it, we've got a workshop that will promote professional growth in the individual or company." />
+  <!-- Included CSS Files -->
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/index.css">
+
+  <!--[if lt IE 9]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+  <![endif]-->
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 
 </head>
 <body>
 
-  The Node Firm has retired.
+  <!--
+  //
+  // Main header
+  //
+  -->
+  <header>
+    
+    <div class="row">
+      <div class="twelve columns">
+        
+        <!--
+        //
+        // Brand and navigation section.
+        //
+        -->
+        <div class="row">
+          <div class="four columns">
+            <a class="logo"><span>the</span> Node firm</a>
+            <h1 style="display: none">The Node Firm</h1>
+          </div>
+          <div class="eight columns">
+            <nav role="navigation" class="nav">
+              <ul class="cf">
+                <li><a href="#services">Services</a>/</li>
+                <li><a href="#mission">Mission</a>/</li>
+                <li><a href="#team">Team</a>/</li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <!--
+        //
+        // Primary value prop
+        //
+        -->
+        <div class="row">
+          <div class="seven columns">
+            <div class="primary-valprop">
+              <h1><em>node.js</em> consulting</h1>
+              <span style="display: none">Node.js Consulting</span>
+              <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://thenodefirm.com" data-text="For professional #nodejs training and consulting follow @thenodefirm">Tweet</a>
+              <p>
+                Node.js consulting &amp; training from the node.js developers you know and trust
+              </p>
+              <br/>
+              <a class="btn" href="mailto:hello@thenodefirm.com">Get a quote right now!</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+
+  <!--
+  //
+  // Our Services
+  //
+  -->
+  <div id="services" class="row">
+    <div class="twelve columns">
+
+      <h1><em>Our</em>Services</h1>
+      <br/>
+
+      <div class="row">
+        <div class="four columns">
+          <h2>Training</h2>
+          <em class="tagline">Learn node.js from the best teachers the community has to offer.</em>
+          <figure>
+            <img src="../img/pic_consulting.png" width="196" height="196" alt="Workshops">
+            <figcaption>at <strong>any venue</strong></figcaption>
+          </figure>
+          <p class="description">         
+            We offer <strong>professional training</strong> that deliver practical knowledge. Our workshops include hands-on development. Whether you're a seasoned Node.js professional or you're just getting started, we have a workshop that will promote professional growth in the individual or company.
+          </p>
+
+          <div class="button-container">
+            <a href="essential-nodejs-training-course" class="btn">More Details</a>
+          </div>
+
+        </div>
+        <div class="four columns">
+          <h2>Consulting</h2>
+          <em class="tagline">Want to use node.js but need some guidance? Gain confidence with The Node Firm.</em>
+          <figure>
+            <img src="../img/pic_mentoring.png" width="196" height="196" alt="Workshops">
+            <figcaption>at <strong>your office</strong></figcaption>
+          </figure>
+          <p class="description">
+            Node.js offers great I/O performance, with high concurrency, the simplicity Javascript. But <b>new technology is always a risk</b> no matter how good it sounds. We would like to help you understand exactly how Node.js can solve problems for you. 
+          </p>
+
+          <div class="button-container">
+            <a href="mailto:hello@thenodefirm.com" class="btn highlight">Get a Quote</a>
+          </div>
+          <br/>
+        </div>
+        <div class="four columns">
+          <h2>Subscription</h2>
+          <em class="tagline">Our competence, guidance and leadership will help you deliver the best node.js products.</em>
+          <figure>
+            <img src="../img/pic_workshop.png" width="196" height="196" alt="Workshops">
+            <figcaption>anywhere<strong> in<br/> the world</strong></figcaption>
+          </figure>
+          <p class="description">
+            Committed to building products and services with Node.js? Let the <strong>leaders in the node community</strong> help you navigate the fast-paced Node.js ecosystem. Our guidance and experience will ensure you stay on the path to Node.js success.
+          </p>
+
+          <div class="button-container">
+            <a href="./nodejs-consulting-subscriptions" class="btn">More Details</a>
+          </div>
+          <br/>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--
+  //
+  // Testimonials 
+  //
+  -->
+
+  <div id="testimonials" class="row cf">
+    <hr>
+    <div class="twelve columns">
+      <h1><em>Our</em>Clients</h1>
+      <br />
+
+      <div class="six columns">
+        <a href="http://www.skype.com/intl/en/home" title="Skype"><img src="/img/skype.png" title="Skype" /></a>
+        <blockquote>They created an excellent training agenda, even cared about including topics that are specific to our team's needs and delivered it very consistently.</blockquote>
+      </div>
+      <div class="six columns">
+        <a href="http://www.qualcomm.com/" title="Qualcomm"><img src="/img/qualcomm.png" title="Qualcomm" /></a>
+        <blockquote>The instructors had tremendous knowledge and deep understating of the topic. The energy, pace, and content were all excellent.</blockquote>
+      </div>
+    </div>
+  </div>
+  <!-- #testimonials -->
+
+  <div id="mission" class="row">
+    <div class="twelve columns">
+      <hr/>
+    </div>
+  </div>
+
+  <!--
+  //
+  // Our Mission
+  //
+  -->
+
+  <div class="row">
+    <div class="twelve columns">
+
+      <h1><em>Our</em>Mission</h1>
+      <br/>
+
+      <div class="row">
+        <div class="six columns">
+          <p>
+            The Node Firm provides the absolute best technical and business insights into using Node.js effectively. We want to be sure that you have people you can trust when you need to learn Node.js.
+          </p>
+          <p>
+            Your success with Node.js is our success. Let's discuss how The Node Firm can help you deliver a great product.
+          </p>
+        </div>
+        <div class="six columns">
+          <ol class="points">
+            <li>Educate</li>
+            <li>Mitigate risk</li>
+            <li>Provide expertise</li>
+            <li>Promote growth</li>
+          </ol>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div id="team" class="row">
+    <div class="twelve columns">
+      <hr/>
+    </div>
+  </div>
+
+  <!--
+  //
+  // Our Team
+  //
+  -->
+
+  <div class="row">
+    <div class="twelve columns">
+
+      <h1><em>Our</em>Team</h1>
+      <br/>
+      <p>
+        The Node Firm team is made up of people who contribute to Node.js project and the Node.js community. We run Node.js in production. We organize and speak at Node.js conferences. We operate businesses that depend on Node.js. We've got experience that can help you succeed with your Node.js project.
+      </p>
+      <div class="row">
+
+        <div class="two columns member-small">
+          <figure>
+            <a href="members/brian+leroux" id="name-small-brianleroux" data-name="brian leroux">
+              <div class="picture"></div>
+              <div class="control"><i></i>Read More</div>
+            </a>
+            <figcaption>
+              <h3><em>brian</em>leroux</h3>
+              <h3 style="display: none">Brian LeRoux</h3>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="two columns member-small">
+          <figure>
+            <a href="members/nuno+job" id="name-small-nunojob" data-name="nuno job">
+              <div class="picture"></div>
+              <div class="control"><i></i>Read More</div>
+            </a>
+            <figcaption>
+              <h3><em>nuno</em>job</h3>
+              <h3 style="display: none">Nuno Job</h3>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="two columns member-small">
+          <figure>
+            <a href="members/jed+schmidt" id="name-small-jedschmidt" data-name="jed schmidt">
+              <div class="picture"></div>
+              <div class="control"><i></i>Read More</div>
+            </a>
+            <figcaption>
+              <h3><em>jed</em>schmidt</h3>
+              <h3 style="display: none">Jed Schmidt</h3>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="two columns member-small">
+          <figure>
+            <a href="members/tim+caswell" id="name-small-timcaswell" data-name="tim caswell">
+              <div class="picture"></div>
+              <div class="control"><i></i>Read More</div>
+            </a>
+            <figcaption>
+              <h3><em>tim</em>caswell</h3>
+              <h3 style="display: none">Tim Caswell</h3>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="two columns member-small">
+          <figure>
+            <a href="members/felix+geisendorfer" id="name-small-felixgeisendorfer" data-name="felix geisendorfer">
+              <div class="picture"></div>
+              <div class="control"><i></i>Read More</div>
+            </a>
+            <figcaption>
+              <h3><em>felix</em>geisendorfer</h3>
+              <h3 style="display: none">Felix Geisendörfer</h3>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="two columns member-small">
+          <figure>
+            <a href="members/jan+lehnardt" id="name-small-janlehnardt" data-name="jan lehnardt">
+              <div class="picture"></div>
+              <div class="control"><i></i>Read More</div>
+            </a>
+            <figcaption>
+              <h3><em>jan</em>lehnardt</h3>
+              <h3 style="display: none">Jan Lehnardt</h3>
+            </figcaption>
+          </figure>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="two columns member-small">
+          <figure>
+            <a href="members/isaac+schlueter" id="name-small-isaacschlueter" data-name="isaac schlueter">
+              <div class="picture"></div>
+              <div class="control"><i></i>Read More</div>
+            </a>
+            <figcaption>
+              <h3><em>isaac</em>schlueter</h3>
+              <h3 style="display: none">Isaac Schlueter</h3>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="two columns member-small">
+          <figure>
+            <a href="members/joe+mccann" id="name-small-joemccann" data-name="joe mccan">
+              <div class="picture"></div>
+              <div class="control"><i></i>Read More</div>
+            </a>
+            <figcaption>
+              <h3><em>joe</em>mccann</h3>
+              <h3 style="display: none">Joseph "Bro" McCann</h3>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="two columns member-small">
+          <figure>
+            <a href="members/pedro+teixeira" id="name-small-pedroteixeira" data-name="pedro teixeira">
+              <div class="picture"></div>
+              <div class="control"><i></i>Read More</div>
+            </a>
+            <figcaption>
+              <h3><em>pedro</em>teixeira</h3>
+              <h3 style="display: none">Pedro Teixeira</h3>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="two columns member-small">
+          <figure>
+            <a href="members/mikeal+rogers" id="name-small-mikealrogers" data-name="mikeal rogers">
+              <div class="picture"></div>
+              <div class="control"><i></i>Read More</div>
+            </a>
+            <figcaption>
+              <h3><em>mikeal</em>rogers</h3>
+              <h3 style="display: none">Mikeal Rogers</h3>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="two columns member-small">
+          <figure>
+            <a href="members/matthew+eernisse" id="name-small-mattheweernisse" data-name="matthew eernisse">
+              <div class="picture"></div>
+              <div class="control"><i></i>Read More</div>
+            </a>
+            <figcaption>
+              <h3><em>matthew</em>eernisse</h3>
+              <h3 style="display: none">Matthew Eernisse</h3>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="two columns member-small">
+          <figure>
+            <a href="members/adam+christian" id="name-small-adamchristian" data-name="adam christian">
+              <div class="picture"></div>
+              <div class="control"><i></i>Read More</div>
+            </a>
+            <figcaption>
+              <h3><em>adam</em>christian</h3>
+              <h3 style="display: none">Adam Christian</h3>
+            </figcaption>
+          </figure>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="two columns member-small">
+          <figure>
+            <a href="members/marco+rogers" id="name-small-marcorogers" data-name="marco rogers">
+              <div class="picture"></div>
+              <div class="control"><i></i>Read More</div>
+            </a>
+            <figcaption>
+              <h3><em>marco</em>rogers</h3>
+              <h3 style="display: none">Marco Rogers</h3>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="two columns member-small">
+          <figure>
+            <a href="members/henrik+joreteg" id="name-small-henrikjoreteg" data-name="henrik joreteg">
+              <div class="picture"></div>
+              <div class="control"><i></i>Read More</div>
+            </a>
+            <figcaption>
+              <h3><em>henrik</em>joreteg</h3>
+              <h3 style="display: none">Henrik Joreteg</h3>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="two columns member-small">
+          <figure>
+            <a href="members/christian+sanz" id="name-small-christiansanz" data-name="christian sanz">
+              <div class="picture"></div>
+              <div class="control"><i></i>Read More</div>
+            </a>
+            <figcaption>
+              <h3><em>christian</em>sanz</h3>
+              <h3 style="display: none">Christian Sanz</h3>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="two columns member-small">
+          <figure>
+            <a href="members/daniel+shaw" id="name-small-danielshaw" data-name="daniel shaw">
+              <div class="picture"></div>
+              <div class="control"><i></i>Read More</div>
+            </a>
+            <figcaption>
+              <h3><em>daniel</em>shaw</h3>
+              <h3 style="display: none">Daniel Shaw</h3>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="two columns member-small">
+          <figure>
+            <a href="members/chris+williams" id="name-small-chriswilliams" data-name="chris williams">
+              <div class="picture"></div>
+              <div class="control"><i></i>Read More</div>
+            </a>
+            <figcaption>
+              <h3><em>chris</em>williams</h3>
+              <h3 style="display: none">Chris Williams</h3>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="two columns member-small">
+          <figure>
+            <a href="members/eli+insua" id="name-small-eliinsua" data-name="eli insua">
+              <div class="picture"></div>
+              <div class="control"><i></i>Read More</div>
+            </a>
+            <figcaption>
+              <h3><em>eli</em>insua</h3>
+              <h3 style="display: none">Eli Insua</h3>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="two columns">
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+  <!--
+  //
+  // Contact Us
+  //
+  -->
+
+  <div id="contact" class="row">
+    <div class="twelve columns">
+      <hr/>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="twelve columns">
+
+      <div class="row">
+        <div class="six columns">
+
+          <h1><em>Contact</em>Us</h1>
+          <span style="display: none">Contact Us</span>
+          <br/>
+          <p>
+            Let's connect and discuss how you can use Node.js to build your next product or how it can expedite the time-to-market of your current project.
+          </p>
+          <p>
+            Say <a href="mailto:hello@thenodefirm.com">hello</a> today!
+          </p>
+
+        </div>
+        <div class="six columns">
+
+          <h1><em>TWITTER</em>FEED</h1>
+
+          <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+          <script>
+          new TWTR.Widget({
+            version: 2,
+            type: 'profile',
+            rpp: 3,
+            interval: 30000,
+            height: 300,
+            theme: {
+              shell: {
+                background: '#ffffff',
+                color: '#333'
+              },
+              tweets: {
+                background: '#ffffff',
+                color: '#333',
+                links: '#519548'
+              }
+            },
+            features: {
+              scrollbar: false,
+              loop: false,
+              live: false,
+              behavior: 'all'
+            }
+          }).render().setUser('thenodefirm').start();
+          </script>
+
+          <br/>
+          <a href="https://twitter.com/thenodefirm" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @thenodefirm</a>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+        </div>
+      </div>
+
+      <br/>
+    </div>
+  </div>
+
+
+  <footer role="contentinfo">
+
+    <div class="row">
+      <div class="twelve columns">
+
+        <!--
+        //
+        // Brand and navigation section.
+        //
+        -->
+        <div class="row">
+          <div class="six columns">
+            <nav role="navigation" class="nav">
+              <ul class="cf">
+                <li><a href="#services">Services</a>/</li>
+                <li><a href="#mission">Mission</a>/</li>
+                <li><a href="#team">Team</a>/</li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+
+            <p>
+              &copy; 2013, The Node Firm<br/>
+              All rights reserved.
+            </p>
+            
+            <p>
+              Designed by <a href="http://twitter.com/karolinaszczur/">@karolinaszczur</a>
+            </p>
+
+          </div>
+          <!-- seven columns -->
+
+          <div class="six columns">
+            <h3><em>Our</em>Partners</h3>
+            <br/>
+            <a href="http://nodejitsu.com/" title="Nodejitsu" class="nodejitsu"><img src="./img/nodejitsu.png"></a>
+            <a href="http://andyet.net/" title="&amp;yet"><img src="./img/andyet.png"></a>
+            <a href="http://joyent.com" title="Joyent"><img src="/img/joyent.png"></a>
+          </div>
+
+        </div>
+        <!-- five columns -->
+
+
+      </div>
+      <!-- row -->
+    </div>
+  </footer>
+  <script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28218380-1']);
+  _gaq.push(['_setDomainName', 'thenodefirm.com']);
+  _gaq.push(['_trackPageview']);
   
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
 </body>
 </html>
 
